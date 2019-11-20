@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/eventName"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/nameInput"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        app:autoSizeTextType="uniform"
+        tools:text="Event Name" />
+
+    <TextView
+        android:id="@+id/startInput"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:text="Event Time Start"
+        app:autoSizeTextType="uniform" />
+
+    <TextView
+        android:id="@+id/endInput"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        app:autoSizeTextType="uniform"
+        tools:text="Event Time End" />
+
+    <TextView
+        android:id="@+id/locationInput"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        app:autoSizeTextType="uniform"
+        tools:text="Event Location" />
+
+    <Button
+        android:id="@+id/Add Event"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:text="Add Event" />
+
+</LinearLayout>
