@@ -7,33 +7,76 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/schedule"
-        android:layout_width="414dp"
-        android:layout_height="339dp"
-        android:text="Nothing"
-        app:autoSizeTextType="uniform"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="100dp" />
-
-    <TextView
-        android:id="@+id/header"
-        android:layout_width="0dp"
-        android:layout_height="100dp"
-        android:text="Your schedule:"
-        app:autoSizeTextType="uniform"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        android:id="@+id/label"
+        android:layout_width="279dp"
+        android:layout_height="37dp"
+        android:editable="false"
+        android:text="Geoff Soundboard"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="16dp" />
 
     <Button
-        android:id="@+id/addEvent"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Add to Schedule"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="528dp" />
+        android:id="@+id/button18"
+        android:layout_width="122dp"
+        android:layout_height="67dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="457dp" />
 
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="122dp"
+        android:layout_height="67dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="122dp"
+        android:layout_height="67dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="570dp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="122dp"
+        android:layout_height="67dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="570dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="122dp"
+        android:layout_height="67dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="332dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="122dp"
+        android:layout_height="67dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="332dp" />
+
+    <Button
+        android:id="@+id/thanksBen"
+        android:layout_width="122dp"
+        android:layout_height="67dp"
+        android:text="Thanks Ben!"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <Button
+        android:id="@+id/nameGeoff"
+        android:layout_width="122dp"
+        android:layout_height="67dp"
+        android:text="My Name's Geoff"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="228dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
