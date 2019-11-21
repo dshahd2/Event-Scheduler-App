@@ -57,10 +57,10 @@
         tools:layout_editor_absoluteY="332dp" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/noCoders"
         android:layout_width="122dp"
         android:layout_height="67dp"
-        android:text="Button"
+        android:text="No Coders!"
         tools:layout_editor_absoluteX="23dp"
         tools:layout_editor_absoluteY="332dp" />
 
