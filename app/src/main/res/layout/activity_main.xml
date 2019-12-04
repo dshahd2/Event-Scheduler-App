@@ -17,15 +17,15 @@
         tools:layout_editor_absoluteY="16dp" />
 
     <Button
-        android:id="@+id/button18"
+        android:id="@+id/welcome"
         android:layout_width="122dp"
         android:layout_height="67dp"
-        android:text="Button"
+        android:text="Welcome Back!"
         tools:layout_editor_absoluteX="23dp"
         tools:layout_editor_absoluteY="457dp" />
 
     <Button
-        android:id="@+id/button19"
+        android:id="@+id/seven"
         android:layout_width="122dp"
         android:layout_height="67dp"
         android:text="Button"
@@ -33,7 +33,7 @@
         tools:layout_editor_absoluteY="457dp" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/four"
         android:layout_width="122dp"
         android:layout_height="67dp"
         android:text="Button"
@@ -41,7 +41,7 @@
         tools:layout_editor_absoluteY="570dp" />
 
     <Button
-        android:id="@+id/button15"
+        android:id="@+id/eight"
         android:layout_width="122dp"
         android:layout_height="67dp"
         android:text="Button"
@@ -49,7 +49,7 @@
         tools:layout_editor_absoluteY="570dp" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/six"
         android:layout_width="122dp"
         android:layout_height="67dp"
         android:text="Button"
