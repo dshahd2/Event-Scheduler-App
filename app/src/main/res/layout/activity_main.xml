@@ -10,73 +10,112 @@
         android:id="@+id/label"
         android:layout_width="279dp"
         android:layout_height="37dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
         android:editable="false"
         android:text="Geoff Soundboard"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.365"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.069" />
 
     <Button
         android:id="@+id/welcome"
         android:layout_width="122dp"
         android:layout_height="67dp"
         android:text="Welcome Back!"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="457dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.688" />
 
     <Button
-        android:id="@+id/seven"
+        android:id="@+id/thatBen"
         android:layout_width="122dp"
         android:layout_height="67dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="262dp"
-        tools:layout_editor_absoluteY="457dp" />
+        android:text="That's All Ben"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.688" />
 
     <Button
-        android:id="@+id/four"
+        android:id="@+id/goodLuck"
         android:layout_width="122dp"
         android:layout_height="67dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="570dp" />
+        android:text="Good Luck!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.858" />
 
     <Button
-        android:id="@+id/eight"
+        android:id="@+id/thisAgain"
         android:layout_width="122dp"
         android:layout_height="67dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="262dp"
-        tools:layout_editor_absoluteY="570dp" />
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginBottom="92dp"
+        android:text="Broke Board Again"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/six"
+        android:id="@+id/likeThis"
         android:layout_width="122dp"
         android:layout_height="67dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="262dp"
-        tools:layout_editor_absoluteY="332dp" />
+        android:text="Like this Class"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/noCoders"
         android:layout_width="122dp"
         android:layout_height="67dp"
         android:text="No Coders!"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="332dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/thanksBen"
         android:layout_width="122dp"
         android:layout_height="67dp"
         android:text="Thanks Ben!"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="228dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.343" />
 
     <Button
         android:id="@+id/nameGeoff"
         android:layout_width="122dp"
         android:layout_height="67dp"
         android:text="My Name's Geoff"
-        tools:layout_editor_absoluteX="262dp"
-        tools:layout_editor_absoluteY="228dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.343" />
 </androidx.constraintlayout.widget.ConstraintLayout>
